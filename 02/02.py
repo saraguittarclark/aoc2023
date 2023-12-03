@@ -11,7 +11,6 @@ def solve(fn):
         #no part of game has violated the limits
         #assume valid game, look for things to invalidate and then disregard
         for round in rounds:
-
             numbers = "".join([char for char in round if char.isnumeric()])
             text = "".join([char for char in round if char.isalpha()])
             # result = [int(numbers), text]
